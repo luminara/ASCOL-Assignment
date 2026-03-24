@@ -129,6 +129,7 @@
 )
 
 
+#linebreak()
 #let date = "2082-11-10"
 #align(center, strong("Lab Index 9"))
 #(
@@ -180,7 +181,9 @@
   )
 )
 
-#let date = "2082-10-28"
+
+#linebreak()
+#let date = "2082-12-01"
 #align(center, strong("Lab Index 11"))
 #(
   table(
