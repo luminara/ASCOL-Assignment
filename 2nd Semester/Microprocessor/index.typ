@@ -6,13 +6,13 @@
   size: 13pt,
   hyphenate: false,
 )
-#align(center, strong("Microprocessor & Computer Architecture Lab Index"))
+#align(center, strong("Microprocessor Lab Index"))
 #(
   table(
     columns: (0.5fr, 5fr, 1.5fr, 1.5fr),
     inset: (x: 6pt, y: 10pt),
     align: horizon,
-    [*SN*], [*Lab Question*], [*Date*], [*Signature*],
+    table.header([*SN*], [*Lab Question*], [*Date*], [*Signature*]),
     [1.],
     [ALP using 8085 microprocessor kit to find sum of two 8-bit numbers and store the result in memory location 2031H.],
     [],
@@ -44,5 +44,19 @@
     [13.], [Sort 10 numbers in ascending order in an array using 8085 microprocessor kit.], [], [],
     [14.], [Find sum of two 16-bit numbers using 8085 programming.], [], [],
     [15.], [Program to display reverse of a 16-bit number.], [], [],
+    [16.], [ALP to display a string using 8086.], [], [],
+    [17.],
+    [Write an ALP to input a character in lowercase and display in uppercase using 16-bit microprocessor.],
+    [],
+    [],
+
+    [18.], [ALP to reverse a given string using 8086 microprocessor.], [], [],
+    [19.], [ALP to check whether a given string is palindrome or not using 8086.], [], [],
+    [20.], [Write an ALP in 8086 to check whether the entered character is vowel or consonant.], [], [],
+    [21.], [Write an 8086 ALP to search given character 'S' in a string "ASCOL CAMPUS".], [], [],
+    [22.],
+    [Write an ALP to count occurence of character 'O' in the string "MICROPROCESSOR" using 8086 microprocessor.],
+    [],
+    [],
   )
 )
